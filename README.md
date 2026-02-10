@@ -1,50 +1,99 @@
-# 📊 Power BI Project — Cancellation Rate Analysis
+📊 Uber Cancellation Analysis — Power BI
+🎯 Business Problem
 
-## Overview
-This project analyzes the cancellation rate in a mobility platform, identifying key operational drivers and their impact on business performance.
+Ride cancellations increased significantly, impacting revenue, user experience, and operational efficiency.
+The objective of this analysis was to identify the main drivers behind cancellations and propose actionable business decisions to reduce them.
 
-The goal is to understand why cancellations occur, how they affect revenue and user experience, and what actions could reduce them.
+🧠 Analytical Approach
 
----
+The analysis focused on identifying operational and behavioral patterns across:
+Time (day & time window)
+Geographic zones
+Traffic level
+Service type
+Waiting time threshold
+The project combines descriptive analytics + business interpretation to translate data into decisions.
 
-## Key Insights
 
-- Highest cancellation occurs during **night time**
-- **Dynamic pricing** significantly increases cancellation rate
-- Long **waiting times (>7 min)** strongly correlate with cancellations
-- Traffic and geographic zones influence cancellation behavior
-- Driver rating has moderate impact
+📊 Dashboard Overview
+Executive KPIs
 
----
+![KPIs](https://github.com/user-attachments/assets/65df43b2-db53-45a6-8c56-8533d3368e73)
+![Dashboard](https://github.com/user-attachments/assets/4cbdc04b-e863-491e-a1e6-985d33489893)
 
-## Tools Used
+Overall cancellation rate: 17.73%
+Critical waiting threshold identified
+Key high-risk segments detected
 
-- Power BI
-- DAX
-- Data Modeling
-- Business Analytics
 
----
+Operational Drivers
 
-## Dashboard
+![Drivers operativos](https://github.com/user-attachments/assets/748b1aac-0817-4f6b-94d9-923b4bbb3bea)
 
-The dashboard allows interactive exploration of:
-- Cancellation rate by time, zone, and service type
-- Impact of traffic and waiting time
-- Key operational drivers
+>7 minutes waiting time = structural break
+Cancellation jumps from 7.1% → 36.6%
+This is the main operational driver.
 
----
+Critical Threshold
 
-## Files Included
+![Momento critico](https://github.com/user-attachments/assets/dc892f61-1872-49bc-97be-4c403a092b0f)
 
-- `dashboard.pbix` → Power BI report
-- `screenshots/` → Dashboard visuals
-- `docs/insights.pdf` → Key findings (optional)
+Key findings:
 
----
+Friday = highest cancellation day
+Night (18–23) = highest risk time window
+High traffic strongly increases cancellations
+Peripheral zones become critical under congestion
 
-## Author
 
-Rodrigo Diez  
-Data / BI Analyst  
+Business Insights
+
+Cancellation is not just operational → it is strategic
+Supply-demand imbalance drives user frustration
+Perceived waiting time matters as much as real waiting time
+Service reliability is key to retention
+
+
+🧩 Recommended Actions (Business-Oriented)
+
+| Driver               | Recommended Action                | Expected Impact      |
+| -------------------- | --------------------------------- | -------------------- |
+| Waiting time >7 min  | Early reassignment & ETA accuracy | Lower cancellations  |
+| High traffic zones   | Targeted driver incentives        | More completed trips |
+| Night demand         | Increase supply                   | Better reliability   |
+| Price/ETA perception | Improve communication             | Higher acceptance    |
+
+
+Priority: Reduce perceived & real waiting time.
+
+
+🛠 Tools & Skills Demonstrated
+
+Power BI (Data modeling, DAX, storytelling)
+Business Analytics mindset
+KPI design & executive dashboarding
+Insight → Decision translation
+Data segmentation & driver analysis
+
+
+📂 Repository Contents
+
+Dashboard screenshots
+Executive insight table
+Business recommendation framework
+Project structure for BI storytelling
+
+
+👨‍💻 About This Project
+
+This project was developed as a business-focused analytics case, aiming to simulate real decision-making scenarios using data.
+
+💬 Open to Feedback
+
+Suggestions, questions, or improvement ideas are welcome.
+
+🚀 Author
+
+Rodrigo Diez
+Data / BI Analyst
 
