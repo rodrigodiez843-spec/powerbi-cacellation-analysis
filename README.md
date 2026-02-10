@@ -1,8 +1,10 @@
 📊 Uber Cancellation Analysis — Power BI
+
 🎯 Business Problem
 
 Ride cancellations increased significantly, impacting revenue, user experience, and operational efficiency.
 The objective of this analysis was to identify the main drivers behind cancellations and propose actionable business decisions to reduce them.
+
 
 🧠 Analytical Approach
 
@@ -21,9 +23,12 @@ Executive KPIs
 ![KPIs](https://github.com/user-attachments/assets/65df43b2-db53-45a6-8c56-8533d3368e73)
 ![Dashboard](https://github.com/user-attachments/assets/4cbdc04b-e863-491e-a1e6-985d33489893)
 
+
 Overall cancellation rate: 17.73%
 Critical waiting threshold identified
 Key high-risk segments detected
+
+
 
 
 Operational Drivers
@@ -33,6 +38,9 @@ Operational Drivers
 >7 minutes waiting time = structural break
 Cancellation jumps from 7.1% → 36.6%
 This is the main operational driver.
+
+
+
 
 Critical Threshold
 
@@ -46,12 +54,17 @@ High traffic strongly increases cancellations
 Peripheral zones become critical under congestion
 
 
+
+
 Business Insights
 
 Cancellation is not just operational → it is strategic
 Supply-demand imbalance drives user frustration
 Perceived waiting time matters as much as real waiting time
 Service reliability is key to retention
+
+
+
 
 
 🧩 Recommended Actions (Business-Oriented)
@@ -67,6 +80,9 @@ Service reliability is key to retention
 Priority: Reduce perceived & real waiting time.
 
 
+
+
+
 🛠 Tools & Skills Demonstrated
 
 Power BI (Data modeling, DAX, storytelling)
@@ -74,6 +90,8 @@ Business Analytics mindset
 KPI design & executive dashboarding
 Insight → Decision translation
 Data segmentation & driver analysis
+
+
 
 
 📂 Repository Contents
@@ -84,13 +102,18 @@ Business recommendation framework
 Project structure for BI storytelling
 
 
+
+
 👨‍💻 About This Project
 
 This project was developed as a business-focused analytics case, aiming to simulate real decision-making scenarios using data.
 
+
 💬 Open to Feedback
 
 Suggestions, questions, or improvement ideas are welcome.
+
+
 
 🚀 Author
 
